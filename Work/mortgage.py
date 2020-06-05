@@ -20,7 +20,7 @@ while principal > 0:
     total_paid = total_paid + payment
 
     if principal > 0:
-        print(months,total_paid, principal)
+        print(f'| {months:0>3d} | ${total_paid:09.2f} | ${principal:09.2f} |')
     
     months += 1
 
